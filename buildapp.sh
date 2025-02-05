@@ -5,4 +5,4 @@ sbcl --no-userinit --load lisp/electron-lisp-boilerplate.asd --eval "(cl-user::b
 # Package
 mv ./lispapp ./lispapp.exe
 npm i
-electron-packager --overwrite . $APP_NAME
+npx @electron/packager --overwrite . $APP_NAME
